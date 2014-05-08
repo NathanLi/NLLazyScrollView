@@ -7,44 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AC5B11C191A8C7A000ABA43 /* NLLazyScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5B11B191A8C7A000ABA43 /* NLLazyScrollPageView.m */; };
+		5AC49804191BE31300967122 /* NLLazyScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC497F0191BE31300967122 /* NLLazyScrollPageView.m */; };
+		5AC49805191BE31300967122 /* NLLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC497F2191BE31300967122 /* NLLazyScrollView.m */; };
+		5AC4980C191BE31300967122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC497FD191BE31300967122 /* main.m */; };
+		5AC4980D191BE31300967122 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC497FF191BE31300967122 /* NLAppDelegate.m */; };
+		5AC4980F191BE31300967122 /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC49803191BE31300967122 /* NLViewController.m */; };
 		64E7A2831660D05F00DB5D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E7A2821660D05F00DB5D9E /* UIKit.framework */; };
 		64E7A2851660D05F00DB5D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E7A2841660D05F00DB5D9E /* Foundation.framework */; };
 		64E7A2871660D05F00DB5D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E7A2861660D05F00DB5D9E /* CoreGraphics.framework */; };
-		64E7A28D1660D05F00DB5D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A28B1660D05F00DB5D9E /* InfoPlist.strings */; };
-		64E7A28F1660D05F00DB5D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7A28E1660D05F00DB5D9E /* main.m */; };
-		64E7A2931660D06000DB5D9E /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7A2921660D06000DB5D9E /* NLAppDelegate.m */; };
-		64E7A2951660D06000DB5D9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A2941660D06000DB5D9E /* Default.png */; };
-		64E7A2971660D06000DB5D9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A2961660D06000DB5D9E /* Default@2x.png */; };
-		64E7A2991660D06000DB5D9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A2981660D06000DB5D9E /* Default-568h@2x.png */; };
-		64E7A29C1660D06000DB5D9E /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7A29B1660D06000DB5D9E /* NLViewController.m */; };
-		64E7A29F1660D06000DB5D9E /* NLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A29D1660D06000DB5D9E /* NLViewController_iPhone.xib */; };
-		64E7A2A21660D06000DB5D9E /* NLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E7A2A01660D06000DB5D9E /* NLViewController_iPad.xib */; };
-		64E7A2AA1660D06F00DB5D9E /* NLLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7A2A91660D06F00DB5D9E /* NLLazyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5AC5B11A191A8C7A000ABA43 /* NLLazyScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLLazyScrollPageView.h; path = DMLazyScrollView/NLLazyScrollPageView.h; sourceTree = "<group>"; };
-		5AC5B11B191A8C7A000ABA43 /* NLLazyScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLLazyScrollPageView.m; path = DMLazyScrollView/NLLazyScrollPageView.m; sourceTree = "<group>"; };
+		5AC497EF191BE31300967122 /* NLLazyScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLLazyScrollPageView.h; sourceTree = "<group>"; };
+		5AC497F0191BE31300967122 /* NLLazyScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLLazyScrollPageView.m; sourceTree = "<group>"; };
+		5AC497F1191BE31300967122 /* NLLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLLazyScrollView.h; sourceTree = "<group>"; };
+		5AC497F2191BE31300967122 /* NLLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLLazyScrollView.m; sourceTree = "<group>"; };
+		5AC497F4191BE31300967122 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5AC497F5191BE31300967122 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5AC497F6191BE31300967122 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5AC497F8191BE31300967122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AC497FA191BE31300967122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NLViewController_iPad.xib; sourceTree = "<group>"; };
+		5AC497FC191BE31300967122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NLViewController_iPhone.xib; sourceTree = "<group>"; };
+		5AC497FD191BE31300967122 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AC497FE191BE31300967122 /* NLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		5AC497FF191BE31300967122 /* NLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		5AC49801191BE31300967122 /* NLLazyScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NLLazyScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		5AC49802191BE31300967122 /* NLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
+		5AC49803191BE31300967122 /* NLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
+		5AC49812191BE3C600967122 /* NLLazyScrollViewExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NLLazyScrollViewExample-Info.plist"; sourceTree = "<group>"; };
 		64E7A27E1660D05F00DB5D9E /* NLLazyScrollViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLLazyScrollViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E7A2821660D05F00DB5D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64E7A2841660D05F00DB5D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64E7A2861660D05F00DB5D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		64E7A28A1660D05F00DB5D9E /* NLLazyScrollViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NLLazyScrollViewExample-Info.plist"; sourceTree = "<group>"; };
-		64E7A28C1660D05F00DB5D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64E7A28E1660D05F00DB5D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64E7A2901660D06000DB5D9E /* NLLazyScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NLLazyScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
-		64E7A2911660D06000DB5D9E /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
-		64E7A2921660D06000DB5D9E /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
-		64E7A2941660D06000DB5D9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		64E7A2961660D06000DB5D9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		64E7A2981660D06000DB5D9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		64E7A29A1660D06000DB5D9E /* NLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
-		64E7A29B1660D06000DB5D9E /* NLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
-		64E7A29E1660D06000DB5D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NLViewController_iPhone.xib; sourceTree = "<group>"; };
-		64E7A2A11660D06000DB5D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NLViewController_iPad.xib; sourceTree = "<group>"; };
-		64E7A2A81660D06F00DB5D9E /* NLLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLLazyScrollView.h; path = DMLazyScrollView/NLLazyScrollView.h; sourceTree = "<group>"; };
-		64E7A2A91660D06F00DB5D9E /* NLLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLLazyScrollView.m; path = DMLazyScrollView/NLLazyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +55,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AC497EE191BE31300967122 /* NLLazyScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5AC497EF191BE31300967122 /* NLLazyScrollPageView.h */,
+				5AC497F0191BE31300967122 /* NLLazyScrollPageView.m */,
+				5AC497F1191BE31300967122 /* NLLazyScrollView.h */,
+				5AC497F2191BE31300967122 /* NLLazyScrollView.m */,
+			);
+			name = NLLazyScrollView;
+			path = ../NLLazyScrollView;
+			sourceTree = "<group>";
+		};
+		5AC497F3191BE31300967122 /* NLLazyScrollViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				5AC49814191BE45300967122 /* support files */,
+				5AC497EE191BE31300967122 /* NLLazyScrollView */,
+				5AC497FD191BE31300967122 /* main.m */,
+				5AC497FE191BE31300967122 /* NLAppDelegate.h */,
+				5AC497FF191BE31300967122 /* NLAppDelegate.m */,
+				5AC49802191BE31300967122 /* NLViewController.h */,
+				5AC49803191BE31300967122 /* NLViewController.m */,
+				5AC497F9191BE31300967122 /* NLViewController_iPad.xib */,
+				5AC497FB191BE31300967122 /* NLViewController_iPhone.xib */,
+			);
+			path = NLLazyScrollViewExample;
+			sourceTree = "<group>";
+		};
+		5AC49814191BE45300967122 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				5AC497F4191BE31300967122 /* Default-568h@2x.png */,
+				5AC497F5191BE31300967122 /* Default.png */,
+				5AC497F6191BE31300967122 /* Default@2x.png */,
+				5AC49812191BE3C600967122 /* NLLazyScrollViewExample-Info.plist */,
+				5AC497F7191BE31300967122 /* InfoPlist.strings */,
+				5AC49801191BE31300967122 /* NLLazyScrollViewExample-Prefix.pch */,
+			);
+			name = "support files";
+			sourceTree = "<group>";
+		};
 		64E7A2731660D05F00DB5D9E = {
 			isa = PBXGroup;
 			children = (
-				64E7A2881660D05F00DB5D9E /* NLLazyScrollViewExample */,
+				5AC497F3191BE31300967122 /* NLLazyScrollViewExample */,
 				64E7A2811660D05F00DB5D9E /* Frameworks */,
 				64E7A27F1660D05F00DB5D9E /* Products */,
 			);
@@ -86,56 +121,6 @@
 				64E7A2861660D05F00DB5D9E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		64E7A2881660D05F00DB5D9E /* NLLazyScrollViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				64E7A2911660D06000DB5D9E /* NLAppDelegate.h */,
-				64E7A2921660D06000DB5D9E /* NLAppDelegate.m */,
-				64E7A2C0166182AE00DB5D9E /* View Controller */,
-				64E7A2BF166182A400DB5D9E /* NLLazyScrollView */,
-				64E7A2891660D05F00DB5D9E /* Supporting Files */,
-			);
-			name = NLLazyScrollViewExample;
-			path = DMLazyScrollViewExample;
-			sourceTree = "<group>";
-		};
-		64E7A2891660D05F00DB5D9E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				64E7A28A1660D05F00DB5D9E /* NLLazyScrollViewExample-Info.plist */,
-				64E7A28B1660D05F00DB5D9E /* InfoPlist.strings */,
-				64E7A28E1660D05F00DB5D9E /* main.m */,
-				64E7A2901660D06000DB5D9E /* NLLazyScrollViewExample-Prefix.pch */,
-				64E7A2941660D06000DB5D9E /* Default.png */,
-				64E7A2961660D06000DB5D9E /* Default@2x.png */,
-				64E7A2981660D06000DB5D9E /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		64E7A2BF166182A400DB5D9E /* NLLazyScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				64E7A2A81660D06F00DB5D9E /* NLLazyScrollView.h */,
-				64E7A2A91660D06F00DB5D9E /* NLLazyScrollView.m */,
-				5AC5B11A191A8C7A000ABA43 /* NLLazyScrollPageView.h */,
-				5AC5B11B191A8C7A000ABA43 /* NLLazyScrollPageView.m */,
-			);
-			name = NLLazyScrollView;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		64E7A2C0166182AE00DB5D9E /* View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				64E7A29A1660D06000DB5D9E /* NLViewController.h */,
-				64E7A29B1660D06000DB5D9E /* NLViewController.m */,
-				64E7A29D1660D06000DB5D9E /* NLViewController_iPhone.xib */,
-				64E7A2A01660D06000DB5D9E /* NLViewController_iPad.xib */,
-			);
-			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E7A28D1660D05F00DB5D9E /* InfoPlist.strings in Resources */,
-				64E7A2951660D06000DB5D9E /* Default.png in Resources */,
-				64E7A2971660D06000DB5D9E /* Default@2x.png in Resources */,
-				64E7A2991660D06000DB5D9E /* Default-568h@2x.png in Resources */,
-				64E7A29F1660D06000DB5D9E /* NLViewController_iPhone.xib in Resources */,
-				64E7A2A21660D06000DB5D9E /* NLViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,39 +185,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E7A28F1660D05F00DB5D9E /* main.m in Sources */,
-				64E7A2931660D06000DB5D9E /* NLAppDelegate.m in Sources */,
-				5AC5B11C191A8C7A000ABA43 /* NLLazyScrollPageView.m in Sources */,
-				64E7A29C1660D06000DB5D9E /* NLViewController.m in Sources */,
-				64E7A2AA1660D06F00DB5D9E /* NLLazyScrollView.m in Sources */,
+				5AC4980D191BE31300967122 /* NLAppDelegate.m in Sources */,
+				5AC49804191BE31300967122 /* NLLazyScrollPageView.m in Sources */,
+				5AC4980C191BE31300967122 /* main.m in Sources */,
+				5AC4980F191BE31300967122 /* NLViewController.m in Sources */,
+				5AC49805191BE31300967122 /* NLLazyScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		64E7A28B1660D05F00DB5D9E /* InfoPlist.strings */ = {
+		5AC497F7191BE31300967122 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64E7A28C1660D05F00DB5D9E /* en */,
+				5AC497F8191BE31300967122 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		64E7A29D1660D06000DB5D9E /* NLViewController_iPhone.xib */ = {
+		5AC497F9191BE31300967122 /* NLViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64E7A29E1660D06000DB5D9E /* en */,
-			);
-			name = NLViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		64E7A2A01660D06000DB5D9E /* NLViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64E7A2A11660D06000DB5D9E /* en */,
+				5AC497FA191BE31300967122 /* en */,
 			);
 			name = NLViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		5AC497FB191BE31300967122 /* NLViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC497FC191BE31300967122 /* en */,
+			);
+			name = NLViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,8 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DMLazyScrollViewExample/NLLazyScrollViewExample-Prefix.pch";
-				INFOPLIST_FILE = "DMLazyScrollViewExample/NLLazyScrollViewExample-Info.plist";
+				GCC_PREFIX_HEADER = "NLLazyScrollViewExample/NLLazyScrollViewExample-Prefix.pch";
+				INFOPLIST_FILE = "NLLazyScrollViewExample/NLLazyScrollViewExample-Info.plist";
 				PRODUCT_NAME = NLLazyScrollViewExample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,8 +290,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DMLazyScrollViewExample/NLLazyScrollViewExample-Prefix.pch";
-				INFOPLIST_FILE = "DMLazyScrollViewExample/NLLazyScrollViewExample-Info.plist";
+				GCC_PREFIX_HEADER = "NLLazyScrollViewExample/NLLazyScrollViewExample-Prefix.pch";
+				INFOPLIST_FILE = "NLLazyScrollViewExample/NLLazyScrollViewExample-Info.plist";
 				PRODUCT_NAME = NLLazyScrollViewExample;
 				WRAPPER_EXTENSION = app;
 			};

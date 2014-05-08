@@ -223,16 +223,16 @@ enum {
 }
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView {
+
     if (isManualAnimating) {
         if (nil != controlDelegate && [controlDelegate respondsToSelector:@selector(lazyScrollViewDidScroll:at:withSelfDrivenAnimation:)]) {
             [controlDelegate lazyScrollViewDidScroll:self at:[self visibleRect].origin withSelfDrivenAnimation:YES];
         }
         return;
     }
-    
     CGFloat offset = (_direction==NLLazyScrollViewDirectionHorizontal) ? scrollView.contentOffset.x : scrollView.contentOffset.y;
     CGFloat size =(_direction==NLLazyScrollViewDirectionHorizontal) ? self.frame.size.width : self.frame.size.height;
-    
+  
     
     // with two pages only scrollview you can only go forward
     // (this prevents us to have a glitch with the next UIView (it can't be placed in two positions at the same time)
@@ -426,6 +426,19 @@ enum {
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+  CGFloat width = CGRectGetWidth(self.bounds);
+  if ((int)scrollView.contentOffset.x % (int)CGRectGetWidth != 0) {
+    CGFloat left = scrollView.contentOffset.x;
+    int     page = left / width;
+    CGFloat space = (int)left % (int)width;
+    if (space > (width / 2)) {
+      left = (page + 1) * width;
+    } else {
+      left = page * width;
+    }
+    [scrollView setContentOffset:CGPointMake(left, 0) animated:YES];
+  }
+  
     if (nil != controlDelegate && [controlDelegate respondsToSelector:@selector(lazyScrollViewDidEndDecelerating:atPageIndex:)])
         [controlDelegate lazyScrollViewDidEndDecelerating:self atPageIndex:self.currentPage];
 }

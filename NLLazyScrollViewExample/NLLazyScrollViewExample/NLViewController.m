@@ -66,7 +66,7 @@
     lazyScrollView.dataSource = self;
     lazyScrollView.numberOfPages = numberOfPages;
 
-    lazyScrollView.controlDelegate = self;
+//    lazyScrollView.controlDelegate = self;
   [lazyScrollView reloadData];
     [self.view addSubview:lazyScrollView];
     
